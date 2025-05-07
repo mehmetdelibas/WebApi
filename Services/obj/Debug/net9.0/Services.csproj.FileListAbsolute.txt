@@ -15,3 +15,4 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Services\obj\Debug\net9.0\Service
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Services\obj\Debug\net9.0\refint\Services.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Services\obj\Debug\net9.0\Services.pdb
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Services\obj\Debug\net9.0\ref\Services.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Services\obj\Debug\net9.0\Services.sourcelink.json

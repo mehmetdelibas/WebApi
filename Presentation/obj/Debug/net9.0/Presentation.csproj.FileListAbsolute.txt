@@ -17,3 +17,4 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Presentation\obj\Debug\net9.0\Pre
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Presentation\obj\Debug\net9.0\refint\Presentation.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Presentation\obj\Debug\net9.0\Presentation.pdb
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Presentation\obj\Debug\net9.0\ref\Presentation.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Presentation\obj\Debug\net9.0\Presentation.sourcelink.json

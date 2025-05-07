@@ -13,3 +13,4 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Repositories\obj\Debug\net9.0\Rep
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Repositories\obj\Debug\net9.0\refint\Repositories.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Repositories\obj\Debug\net9.0\Repositories.pdb
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Repositories\obj\Debug\net9.0\ref\Repositories.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Repositories\obj\Debug\net9.0\Repositories.sourcelink.json

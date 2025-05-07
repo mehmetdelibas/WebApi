@@ -9,3 +9,4 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Entities\obj\Debug\net9.0\Entitie
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Entities\obj\Debug\net9.0\refint\Entities.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Entities\obj\Debug\net9.0\Entities.pdb
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Entities\obj\Debug\net9.0\ref\Entities.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\Entities\obj\Debug\net9.0\Entities.sourcelink.json
