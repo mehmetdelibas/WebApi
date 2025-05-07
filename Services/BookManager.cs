@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Exceptions;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -32,11 +33,7 @@ namespace Services
         {
             var entity = _manager.Book.GetOneBookById(id, trackChanges);
             if (entity is null)
-            {
-                string message = $"The book with id:{id} could not found";
-                _logger.LogInfo(message);
-                throw new Exception(message);
-            }
+                throw new BookNotFoundException(id);
 
             _manager.Book.DeleteeOneBook(entity);
             _manager.Save();          
@@ -49,21 +46,18 @@ namespace Services
 
         public Book GetOneBookById(int id, bool trackChanges)
         {
-            return _manager.Book.GetOneBookById(id,trackChanges);
+            var book = _manager.Book.GetOneBookById(id,trackChanges);
+            if (book is null)
+                throw new BookNotFoundException(id);
+            return book;
         }
 
         public void UpdateOneBook(int id, Book book, bool trackChanges)
         {
             var entity = _manager.Book.GetOneBookById(id,trackChanges);
             if (entity is null)
-            {
-                string message = $"Book with id{id} could not found";
-                _logger.LogInfo(message);
-                throw new Exception(message);
-            }    
+                throw new BookNotFoundException(id);
 
-            if(book is null)
-                throw new ArgumentException(nameof (book));
 
             entity.Title = book.Title;
             entity.Price = book.Price;

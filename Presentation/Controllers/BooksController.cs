@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Exceptions;
+using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
@@ -24,116 +25,77 @@ namespace Presentation.Controllers
         [HttpGet]
         public IActionResult GetAllBooks()
         {
-            try
-            {
-                var books = _manager.BookServices.GetallBooks(false);
-                return Ok(books);
-            }
-            catch (Exception ex)
-            {
 
-                throw new Exception(ex.Message);
-            }
+            var books = _manager.BookServices.GetallBooks(false);
+            return Ok(books);
+
         }
 
         [HttpGet("{id:int}")]
         public IActionResult GetOneBook([FromRoute(Name = "id")] int id)
         {
-            try
-            {
-                var book = _manager
-                .BookServices
-                .GetOneBookById(id, false);
 
-                if (book is null)
-                    return NotFound();
 
-                return Ok(book);
 
-            }
-            catch (Exception ex)
-            {
+            var book = _manager
+            .BookServices
+            .GetOneBookById(id, false);
 
-                throw new Exception(ex.Message);
-            }
+            return Ok(book);
+
+
+
         }
 
         [HttpPost]
         public IActionResult CreateOneBook([FromBody] Book book)
         {
-            try
-            {
-                if (book is null)
-                    return BadRequest();
-                _manager.BookServices.CreatOneBook(book);
 
-                return StatusCode(201, book);
-            }
-            catch (Exception ex)
-            {
 
-                return BadRequest(ex.Message);
-            }
+            if (book is null)
+                return BadRequest();
+            _manager.BookServices.CreatOneBook(book);
+
+            return StatusCode(201, book);
         }
+
 
         [HttpPut("{id:int}")]
         public IActionResult UpdateOneBook([FromRoute(Name = "id")] int id,
             [FromBody] Book book)
         {
-            try
-            {
-                if (book is null)
-                    return BadRequest();
+
+            if (book is null)
+                return BadRequest();
 
 
-                _manager.BookServices.UpdateOneBook(id, book, true);
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
+            _manager.BookServices.UpdateOneBook(id, book, true);
+            return NoContent();
 
-                throw new Exception(ex.Message);
-            }
         }
 
         [HttpDelete("{id:int}")]
         public IActionResult DeleteOneBook([FromRoute(Name = "id")] int id)
         {
-            try
-            {
-                _manager.BookServices.DeleteOneBook(id, false);
-                return NoContent();
+            _manager.BookServices.DeleteOneBook(id, false);
+            return NoContent();
 
-            }
-            catch (Exception ex)
-            {
-
-                throw new Exception(ex.Message);
-            }
         }
 
         [HttpPatch("{id:int}")]
         public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id,
             [FromBody] JsonPatchDocument<Book> bookPatch)
         {
-            try
-            {
-                var entity = _manager
-                    .BookServices
-                    .GetOneBookById(id, true);
-                if (entity is null)
-                    return NotFound();
 
-                bookPatch.ApplyTo(entity);
-                _manager.BookServices.UpdateOneBook(id, entity, true);
+            var entity = _manager
+                .BookServices
+                .GetOneBookById(id, true);
 
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
+            bookPatch.ApplyTo(entity);
+            _manager.BookServices.UpdateOneBook(id, entity, true);
 
-                throw new Exception(ex.Message);
-            }
+            return NoContent();
+
         }
 
     }
