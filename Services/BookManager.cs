@@ -1,5 +1,6 @@
 ﻿using Entities.Models;
 using Repositories.Contracts;
+using Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,17 +12,17 @@ namespace Services
     public class BookManager : IBookServices
     {
         private readonly IRepositoryManager _manager;
+        private readonly ILoggerService _logger;
 
-        public BookManager(IRepositoryManager manager)
+        public BookManager(IRepositoryManager manager,
+            ILoggerService logger)
         {
             _manager = manager;
+            _logger = logger;
         }
 
         public Book CreatOneBook(Book book)
         {
-            if (book == null)
-                throw new ArgumentException(nameof(book));
-
             _manager.Book.CreateOneBook(book);
             _manager.Save();
             return book;
@@ -31,7 +32,11 @@ namespace Services
         {
             var entity = _manager.Book.GetOneBookById(id, trackChanges);
             if (entity is null)
-                throw new Exception($"Book with id{id} could not found");
+            {
+                string message = $"The book with id:{id} could not found";
+                _logger.LogInfo(message);
+                throw new Exception(message);
+            }
 
             _manager.Book.DeleteeOneBook(entity);
             _manager.Save();          
@@ -51,7 +56,11 @@ namespace Services
         {
             var entity = _manager.Book.GetOneBookById(id,trackChanges);
             if (entity is null)
-                throw new Exception($"Book with id{id} could not found");
+            {
+                string message = $"Book with id{id} could not found";
+                _logger.LogInfo(message);
+                throw new Exception(message);
+            }    
 
             if(book is null)
                 throw new ArgumentException(nameof (book));

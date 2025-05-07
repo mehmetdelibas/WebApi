@@ -177,3 +177,6 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\Services.
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\Services.pdb
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\Presentation.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\Presentation.pdb
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\nlog.config
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\NLog.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\NLog.Extensions.Logging.dll
