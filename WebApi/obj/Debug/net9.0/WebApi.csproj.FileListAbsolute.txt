@@ -180,3 +180,5 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\Presentat
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\nlog.config
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\NLog.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\NLog.Extensions.Logging.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -10,10 +10,13 @@ namespace Services
 {
     public interface IBookServices
     {
-        IEnumerable<Book> GetallBooks(bool trackChanges);
-        Book GetOneBookById(int id, bool trackChanges);
-        Book CreatOneBook(Book book);
+        IEnumerable<BookDto> GetallBooks(bool trackChanges);
+        BookDto GetOneBookById(int id, bool trackChanges);
+        BookDto CreatOneBook(BookDtoForInsertion book);
         void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges);
         void DeleteOneBook(int id, bool trackChanges);
+        (BookDtoForUpdate BookDtoForUpdate, Book book) GetOneBookForPatch(int id, bool trackChanges);
+
+        void SaveChangesForPatches(BookDtoForUpdate bookDtoForUpdate, Book book);
     }
 }

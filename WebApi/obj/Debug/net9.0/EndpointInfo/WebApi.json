@@ -22,24 +22,39 @@
         ],
         "requestBody": {
           "content": {
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDtoForInsertion"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDtoForInsertion"
+              }
+            },
+            "application/*+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDtoForInsertion"
+              }
+            },
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForInsertion"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForInsertion"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForInsertion"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForInsertion"
               }
             }
           }
@@ -90,24 +105,39 @@
         ],
         "requestBody": {
           "content": {
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDtoForUpdate"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDtoForUpdate"
+              }
+            },
+            "application/*+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDtoForUpdate"
+              }
+            },
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForUpdate"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForUpdate"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForUpdate"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Book"
+                "$ref": "#/components/schemas/BookDtoForUpdate"
               }
             }
           }
@@ -156,6 +186,30 @@
         ],
         "requestBody": {
           "content": {
+            "application/xml": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/*+xml": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
             "application/json-patch+json": {
               "schema": {
                 "type": "array",
@@ -200,20 +254,49 @@
   },
   "components": {
     "schemas": {
-      "Book": {
+      "BookDtoForInsertion": {
+        "required": [
+          "price",
+          "title"
+        ],
         "type": "object",
         "properties": {
+          "title": {
+            "maxLength": 50,
+            "minLength": 2,
+            "type": "string"
+          },
+          "price": {
+            "maximum": 1000,
+            "minimum": 10,
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BookDtoForUpdate": {
+        "required": [
+          "id",
+          "price",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "maxLength": 50,
+            "minLength": 2,
+            "type": "string"
+          },
+          "price": {
+            "maximum": 1000,
+            "minimum": 10,
+            "type": "number",
+            "format": "double"
+          },
           "id": {
             "type": "integer",
             "format": "int32"
-          },
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
           }
         },
         "additionalProperties": false
