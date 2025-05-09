@@ -24,7 +24,6 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
     options.SuppressModelStateInvalidFilter = true;
 });
 
-
 // Add services to the container.
 
 builder.Services.AddEndpointsApiExplorer();

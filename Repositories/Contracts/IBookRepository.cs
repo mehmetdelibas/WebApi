@@ -9,13 +9,13 @@ namespace Repositories.Contracts
 {
     public interface IBookRepository : IRepositoryBase<Book>
     {
-        IQueryable<Book> GetAllBook(bool trackChanges);
+        Task<IEnumerable<Book>> GetAllBookAsync(bool trackChanges);
 
-        Book GetOneBookById(int id,bool trackChanges);
+        Task<Book> GetOneBookByIdAsync(int id, bool trackChanges);
 
         void CreateOneBook(Book book);
         void UpdateOneBook(Book book);
-        void DeleteeOneBook(Book book);
+        void DeleteOneBook(Book book);
 
     }
 }
