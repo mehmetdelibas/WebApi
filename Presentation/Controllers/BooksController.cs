@@ -3,6 +3,7 @@ using Entities.Exceptions;
 using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Presentation.ActionFilters;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace Presentation.Controllers
 {
+    [ServiceFilter(typeof(LogFilterAttirubite))]
     [ApiController]
     [Route("api/books")]
     public class BooksController : ControllerBase
@@ -35,51 +37,29 @@ namespace Presentation.Controllers
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetOneBookAsync([FromRoute(Name = "id")] int id)
         {
-
-
-
             var book = await _manager
             .BookServices
             .GetOneBookByIdAsync(id, false);
 
             return Ok(book);
-
-
-
         }
 
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         [HttpPost]
         public async Task<IActionResult> CreateOneBookAsync([FromBody] BookDtoForInsertion bookDto)
         {
 
-
-            if (bookDto is null)
-                return BadRequest();
-
-            if(!ModelState.IsValid)
-                return UnprocessableEntity(ModelState);
-
             var book = await _manager.BookServices.CreatOneBookAsync(bookDto);
-
-            return StatusCode(201, book); 
+            return StatusCode(201, book);
         }
 
-
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateOneBookAsync([FromRoute(Name = "id")] int id,
             [FromBody] BookDtoForUpdate bookDto)
         {
-
-            if (bookDto is null)
-                return BadRequest();
-
-            if(!ModelState.IsValid)
-                return UnprocessableEntity(ModelState);
-
-
             await _manager.BookServices.UpdateOneBookAsync(id, bookDto, false);
             return NoContent();
-
         }
 
         [HttpDelete("{id:int}")]
@@ -103,7 +83,7 @@ namespace Presentation.Controllers
 
             TryValidateModel(result.bookDtoForUpdate);
 
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
                 return UnprocessableEntity(ModelState);
 
             await _manager.BookServices.SaveChangesForPatchesAsync(result.bookDtoForUpdate, result.book);
