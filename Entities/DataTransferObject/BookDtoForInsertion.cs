@@ -3,5 +3,5 @@
     public record BookDtoForInsertion : BookDtoForManipulation
     {
  
-    }
+    } 
 }
