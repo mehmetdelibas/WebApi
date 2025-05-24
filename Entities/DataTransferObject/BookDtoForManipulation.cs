@@ -16,7 +16,7 @@ namespace Entities.DataTransferObject
         public String Title { get; init; }
 
         [Required(ErrorMessage = " Price is a required filed")]
-        [Range(10,1000)]
+        [Range(10,10000)]
         public decimal Price { get; init; }
     }
 }

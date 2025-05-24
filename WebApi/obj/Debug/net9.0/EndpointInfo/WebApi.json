@@ -267,7 +267,7 @@
             "type": "string"
           },
           "price": {
-            "maximum": 1000,
+            "maximum": 10000,
             "minimum": 10,
             "type": "number",
             "format": "double"
@@ -289,7 +289,7 @@
             "type": "string"
           },
           "price": {
-            "maximum": 1000,
+            "maximum": 10000,
             "minimum": 10,
             "type": "number",
             "format": "double"
