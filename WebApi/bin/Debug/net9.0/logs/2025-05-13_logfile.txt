@@ -1,0 +1,3 @@
+2025-05-13 13:48:55.2597 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"UpdateOneBook","Id":"3","CreateAt":"2025-05-13T10:48:55.2287683Z"}
+2025-05-13 13:48:57.3305 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-13T10:48:57.3301535Z"}
+2025-05-13 13:49:00.8919 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"1","CreateAt":"2025-05-13T10:49:00.8918507Z"}

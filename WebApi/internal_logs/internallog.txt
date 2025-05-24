@@ -160,9 +160,39 @@
 2025-05-09 13:35:51.7902 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
 2025-05-09 13:37:53.7457 Info AppDomain Shutting down. LogFactory closing...
 2025-05-09 13:37:53.7595 Info LogFactory has been closed.
-2025-05-15 13:10:49.8113 Info Message Template Auto Format enabled
-2025-05-15 13:10:49.9312 Info Adding target FileTarget(Name=logfile)
-2025-05-15 13:10:49.9480 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
-2025-05-15 13:12:40.3269 Info Message Template Auto Format enabled
-2025-05-15 13:12:40.4193 Info Adding target FileTarget(Name=logfile)
-2025-05-15 13:12:40.4377 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-09 14:22:29.1359 Info Message Template Auto Format enabled
+2025-05-09 14:22:29.2749 Info Adding target FileTarget(Name=logfile)
+2025-05-09 14:22:29.3016 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-09 14:24:48.5468 Info Message Template Auto Format enabled
+2025-05-09 14:24:48.6303 Info Adding target FileTarget(Name=logfile)
+2025-05-09 14:24:48.6502 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-09 14:31:00.1893 Info Message Template Auto Format enabled
+2025-05-09 14:31:00.2714 Info Adding target FileTarget(Name=logfile)
+2025-05-09 14:31:00.2923 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-09 14:31:09.0226 Info Message Template Auto Format enabled
+2025-05-09 14:31:09.1073 Info Adding target FileTarget(Name=logfile)
+2025-05-09 14:31:09.1234 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-09 14:33:40.1253 Info Message Template Auto Format enabled
+2025-05-09 14:33:40.2279 Info Adding target FileTarget(Name=logfile)
+2025-05-09 14:33:40.2493 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-09 14:40:00.2335 Info Message Template Auto Format enabled
+2025-05-09 14:40:00.3727 Info Adding target FileTarget(Name=logfile)
+2025-05-09 14:40:00.3900 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-12 10:39:54.7310 Info Message Template Auto Format enabled
+2025-05-12 10:39:54.8257 Info Adding target FileTarget(Name=logfile)
+2025-05-12 10:39:54.8428 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-12 10:44:56.2652 Info Message Template Auto Format enabled
+2025-05-12 10:44:56.3402 Info Adding target FileTarget(Name=logfile)
+2025-05-12 10:44:56.3542 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-12 10:47:19.7286 Info Message Template Auto Format enabled
+2025-05-12 10:47:19.8033 Info Adding target FileTarget(Name=logfile)
+2025-05-12 10:47:19.8249 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-12 10:48:10.5422 Info Message Template Auto Format enabled
+2025-05-12 10:48:10.6356 Info Adding target FileTarget(Name=logfile)
+2025-05-12 10:48:10.6571 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-13 12:38:15.8712 Info Message Template Auto Format enabled
+2025-05-13 12:38:16.0511 Info Adding target FileTarget(Name=logfile)
+2025-05-13 12:38:16.0815 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-13 13:48:46.5830 Info Message Template Auto Format enabled
+2025-05-13 13:48:46.7165 Info Adding target FileTarget(Name=logfile)
+2025-05-13 13:48:46.7386 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
