@@ -17,10 +17,11 @@ namespace Entities.RequestFeatrues
                 TotalCount = count,
                 PageSize = pageSize,
                 CurrentPage = pageNumber,
-                TotalPage = (int)Math.Ceiling(count/(double)pageSize)
+                TotalPage = (int)Math.Ceiling(count / (double)pageSize)
             };
             AddRange(items);
         }
+
 
         public static PagedList<T> ToPagedList(IEnumerable<T> source,
             int pageNumber,

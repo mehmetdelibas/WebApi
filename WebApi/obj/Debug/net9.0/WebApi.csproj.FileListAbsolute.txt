@@ -18,12 +18,6 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\scopedcss
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.build.WebApi.props
-C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
-C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebApi.props
-C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\WebApi.csproj.Up2Date
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\WebApi.dll
@@ -182,3 +176,4 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\NLog.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\NLog.Extensions.Logging.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets.build.json.cache

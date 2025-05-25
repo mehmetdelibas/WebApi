@@ -43,3 +43,15 @@ Error Number:2627,State:1,Class:14
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-24 20:49:23.3972 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:49:23.3850394Z"}
+2025-05-24 20:50:24.9163 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:50:24.9162455Z"}
+2025-05-24 20:50:35.4477 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"1","CreateAt":"2025-05-24T17:50:35.4475995Z"}
+2025-05-24 20:50:46.4208 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:50:46.4207477Z"}
+2025-05-24 20:51:05.3679 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:51:05.3678471Z"}
+2025-05-24 20:52:03.6428 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:52:03.6201336Z"}
+2025-05-24 20:55:41.2642 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:55:41.2641545Z"}
+2025-05-24 20:56:09.6494 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:56:09.6492466Z"}
+2025-05-24 20:56:21.5855 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:56:21.5854738Z"}
+2025-05-24 20:56:30.9738 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:56:30.9736496Z"}
+2025-05-24 20:56:42.2509 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:56:42.2508373Z"}
+2025-05-24 20:57:00.9153 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-24T17:57:00.915312Z"}
