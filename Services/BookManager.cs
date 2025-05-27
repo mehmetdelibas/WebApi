@@ -2,6 +2,7 @@
 using Entities.DataTransferObject;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -44,10 +45,21 @@ namespace Services
             await _manager.SaveAsync();
         }
 
-        public async Task<IEnumerable<BookDto>> GetAllBookAsync(bool trackChanges)
+        public async Task<(IEnumerable<BookDto> books, MetaData metaData)> 
+            GetAllBookAsync(BookParameters bookParameters,
+            bool trackChanges)
         {
-            var books = await _manager.Book.GetAllBookAsync(trackChanges);
-            return _mapper.Map<IEnumerable<BookDto>>(books);
+            if (!bookParameters.ValidPriceRange)
+                throw new PriceOutOfRangeBadRequestException();
+
+            var booksWithMetaData = await _manager
+                .Book
+                .GetAllBookAsync(bookParameters, trackChanges);
+
+            var booksDto = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
+
+            return(booksDto, booksWithMetaData.MetaData);
+
         }
 
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
