@@ -489,6 +489,14 @@
           "System.Runtime.Extensions": "4.1.0"
         }
       },
+      "System.Linq.Dynamic.Core/1.6.4": {
+        "runtime": {
+          "lib/net9.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.6.4.0",
+            "fileVersion": "1.6.4.0"
+          }
+        }
+      },
       "System.Linq.Expressions/4.1.0": {
         "dependencies": {
           "System.Collections": "4.0.11",
@@ -656,7 +664,8 @@
       "Repositories/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "9.0.4"
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "System.Linq.Dynamic.Core": "1.6.4"
         },
         "runtime": {
           "Repositories.dll": {
@@ -1092,6 +1101,13 @@
       "sha512": "sha512-bQ0iYFOQI0nuTnt+NQADns6ucV4DUvMdwN6CbkB1yj8i7arTGiTN5eok1kQwdnnNWSDZfIUySQY+J3d5KjWn0g==",
       "path": "system.linq/4.1.0",
       "hashPath": "system.linq.4.1.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8+/9Iux+i/IJ9L4FdwGM7ilMCeif3cKw8iB4dXgCBtn67fkr7KuXEGTc05d52tgaUQpnmNr4TIFscmyiKWL84g==",
+      "path": "system.linq.dynamic.core/1.6.4",
+      "hashPath": "system.linq.dynamic.core.1.6.4.nupkg.sha512"
     },
     "System.Linq.Expressions/4.1.0": {
       "type": "package",

@@ -243,3 +243,21 @@
 2025-05-27 15:21:19.7526 Info Message Template Auto Format enabled
 2025-05-27 15:21:19.8116 Info Adding target FileTarget(Name=logfile)
 2025-05-27 15:21:19.8247 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-27 20:52:43.6063 Info Message Template Auto Format enabled
+2025-05-27 20:52:43.7058 Info Adding target FileTarget(Name=logfile)
+2025-05-27 20:52:43.7229 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-27 20:56:47.8853 Info Message Template Auto Format enabled
+2025-05-27 20:56:47.9668 Info Adding target FileTarget(Name=logfile)
+2025-05-27 20:56:47.9837 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-27 20:58:25.4280 Info Message Template Auto Format enabled
+2025-05-27 20:58:25.6974 Info Adding target FileTarget(Name=logfile)
+2025-05-27 20:58:25.7565 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-27 21:03:31.7576 Info Message Template Auto Format enabled
+2025-05-27 21:03:31.8428 Info Adding target FileTarget(Name=logfile)
+2025-05-27 21:03:31.8588 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-27 21:08:56.3517 Info Message Template Auto Format enabled
+2025-05-27 21:08:56.4304 Info Adding target FileTarget(Name=logfile)
+2025-05-27 21:08:56.4488 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-05-27 21:26:58.2664 Info Message Template Auto Format enabled
+2025-05-27 21:26:58.3527 Info Adding target FileTarget(Name=logfile)
+2025-05-27 21:26:58.3747 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config

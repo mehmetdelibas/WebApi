@@ -177,3 +177,4 @@ C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\NLog.Exte
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\bin\Debug\net9.0\System.Linq.Dynamic.Core.dll
