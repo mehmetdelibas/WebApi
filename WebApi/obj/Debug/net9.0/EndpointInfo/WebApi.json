@@ -63,6 +63,13 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "Fields",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {

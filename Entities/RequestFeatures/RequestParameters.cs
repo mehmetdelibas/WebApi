@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,9 @@ namespace Entities.RequestFeatures
 		}
 
 		public String? OrderBy{ get; set; }
-		
 
-	}
+		public String? Fields { get; set; }
+
+
+    }
 }

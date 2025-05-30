@@ -3,6 +3,7 @@ using Entities.Models;
 using Entities.RequestFeatures;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace Services
 {
     public interface IBookServices
     {
-        Task<(IEnumerable<BookDto> books, MetaData metaData)> GetAllBookAsync(BookParameters bookParameters,
+        Task<(IEnumerable<ExpandoObject> books, MetaData metaData)> GetAllBookAsync(BookParameters bookParameters,
             bool trackChanges);
         Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges);
         Task<BookDto> CreatOneBookAsync(BookDtoForInsertion book);

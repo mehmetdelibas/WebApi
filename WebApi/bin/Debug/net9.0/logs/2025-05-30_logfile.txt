@@ -1,0 +1,4 @@
+2025-05-30 10:50:13.1500 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-30T07:50:13.1390016Z"}
+2025-05-30 10:50:26.1368 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-30T07:50:26.1367387Z"}
+2025-05-30 10:50:38.4115 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-30T07:50:38.4114918Z"}
+2025-05-30 10:50:42.8958 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-05-30T07:50:42.895862Z"}
