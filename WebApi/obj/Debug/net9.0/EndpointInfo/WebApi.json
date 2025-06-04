@@ -10,7 +10,7 @@
         "tags": [
           "Books"
         ],
-        "operationId": "GetAllBookAsync",
+        "operationId": "GetAllBooksAsync",
         "parameters": [
           {
             "name": "MinPrice",
@@ -155,6 +155,7 @@
         "tags": [
           "Books"
         ],
+        "operationId": "CreateOneBookAsync",
         "requestBody": {
           "content": {
             "application/json": {
@@ -353,6 +354,19 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api": {
+      "get": {
+        "tags": [
+          "Root"
+        ],
+        "operationId": "GetRoot",
         "responses": {
           "200": {
             "description": "OK"

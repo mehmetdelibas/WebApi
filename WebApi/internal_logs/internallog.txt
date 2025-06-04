@@ -312,3 +312,6 @@
 2025-06-04 17:05:48.3681 Info Message Template Auto Format enabled
 2025-06-04 17:05:48.4838 Info Adding target FileTarget(Name=logfile)
 2025-06-04 17:05:48.5107 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config
+2025-06-04 21:13:43.7555 Info Message Template Auto Format enabled
+2025-06-04 21:13:43.8319 Info Adding target FileTarget(Name=logfile)
+2025-06-04 21:13:43.8461 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Mertcan\Masaüstü\BTKDERS\bsStoreApp\WebApi\nlog.config

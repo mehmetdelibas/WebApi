@@ -1,5 +1,22 @@
 [
   {
+    "ContainingType": "Presentation.Controllers.RootController",
+    "Method": "GetRoot",
+    "RelativePath": "api",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetRoot"
+  },
+  {
     "ContainingType": "Presentation.Controllers.BooksController",
     "Method": "GetAllBooksAsync",
     "RelativePath": "api/books",
@@ -49,7 +66,7 @@
       }
     ],
     "ReturnTypes": [],
-    "EndpointName": "GetAllBookAsync"
+    "EndpointName": "GetAllBooksAsync"
   },
   {
     "ContainingType": "Presentation.Controllers.BooksController",
@@ -116,7 +133,8 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "CreateOneBookAsync"
   },
   {
     "ContainingType": "Presentation.Controllers.BooksController",
